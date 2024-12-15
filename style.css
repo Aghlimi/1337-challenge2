@@ -1,0 +1,31 @@
+body {
+    padding-top: 100px;
+    background-color: #000;
+}
+
+#parent {
+    width: 400px;
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #333333;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p{
+   color: #B8E500;
+}
