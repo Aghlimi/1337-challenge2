@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'face';
+    src: url("fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     padding-top: 100px;
     background-color: #000;
+    font-family: 'face', sans-serif;
 }
 
 #parent {
@@ -19,13 +27,25 @@ button {
     border: 0;
     background-color: #333333;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: #B8E500;
 }
 
 h1 {
     color: aliceblue;
 }
 
-p{
-   color: #B8E500;
+p {
+    color: #B8E500;
+}
+
+#p2 {
+    color: #ffffff;
+}
+
+img {
+    border-radius: 100em;
+    width: 30%;
 }
